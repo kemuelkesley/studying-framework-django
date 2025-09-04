@@ -245,6 +245,16 @@ h1, h2, h3, h4, h5, h6 {
     padding: var(--spacing-gutter-large);
 }
 
+.main-content-detail .recipe-list-item {
+    max-width: 84rem;
+    margin: 0 auto;
+}
+
+.main-content-detail .recipe-list-item:hover {
+    transform: scale(1);
+    box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
 .main-footer a {
     color: var(--color-white);
     text-decoration: none;
