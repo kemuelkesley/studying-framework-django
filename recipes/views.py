@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from utls.recipes.factory import make_recipe
+from utils.recipes.factory import make_recipe
 
 # Create your views here.
 

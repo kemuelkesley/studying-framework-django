@@ -23,7 +23,7 @@ def make_recipe():
             'name': fake.word()
         },
         'cover': {
-            'url': 'https://loremflickr.com/%s/%s/food,cook' % rand_ratio(),
+            'url': 'https://picsum.photos/%s/%s' % rand_ratio(),
         }
     }
 if __name__ == '__main__':
